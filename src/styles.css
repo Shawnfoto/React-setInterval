@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.modal {
+  display: none;
+  width: 200px;
+  height: 100px;
+}
+
+.modal.visible {
+  display: block;
+  position: fixed;
+  background-color: yellow;
+  top: 0;
+  right: 0;
+}
+
+section {
+  float: left;
+}
+
+.close {
+  float: right;
+}
